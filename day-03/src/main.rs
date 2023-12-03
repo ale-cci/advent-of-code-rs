@@ -147,7 +147,6 @@ fn solve_part2(input: &str) -> u32 {
         }
         assert!(values.len() == 2);
 
-        println!("Values: {values:?}");
         total += values[0] * values[1]
     }
     total
